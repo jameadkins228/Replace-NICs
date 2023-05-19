@@ -47,3 +47,29 @@ Open a PowerShell console and navigate to the project directory.
 Import the VMware PowerCLI module:
 ```powershell
 Import-Module VMware.PowerCLI
+
+Run the script:
+```powershell
+.\Replace-NetworkAdapter.ps1
+
+
+The script will prompt you to provide the vCenter credentials using the Get-Credential command.
+
+Note: Ensure that you have the necessary permissions to perform the operations on the virtual machines.
+
+Follow the on-screen instructions to specify the virtual machine(s) you want to replace the network adapter for.
+
+The script will retrieve the network information, replace the network adapter, and reconfigure the network settings.
+
+Review the output and any warnings or errors displayed during the execution of the script.
+
+License
+This project is licensed under the MIT License.
+
+Contributing
+Contributions are welcome! If you find any issues or want to add new features, please submit a pull request or open an issue.
+
+Disclaimer
+Use this script at your own risk. Ensure you have backups of your virtual machines before making any changes.
+The script is provided as-is without any warranty or guarantee of its functionality.
+Review the script and test it in a non-production environment before using it in a production environment.
