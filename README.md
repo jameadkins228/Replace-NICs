@@ -39,11 +39,11 @@ Clone the repository or download the script files to your local machine.
 Open a PowerShell console and navigate to the project directory.
 
 Import the VMware PowerCLI module:
-```powershell
+
 Import-Module VMware.PowerCLI
 
 Run the script:
-```powershell
+
 .\Replace-NetworkAdapter.ps1
 
 
