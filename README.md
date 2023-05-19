@@ -16,12 +16,6 @@ This project provides a PowerShell script that allows you to replace the existin
   ```powershell
   Install-Module -Name VMware.PowerCLI -Scope CurrentUser
 
-
-
-Sure! Here's a sample README document for your project:
-
-sql
-Copy code
 # VMware Network Adapter Replacement
 
 This project provides a PowerShell script that allows you to replace the existing network adapter of a VMware virtual machine with a new one and reconfigure the network settings. The script leverages the VMware PowerCLI module and the vSphere API to perform the necessary operations.
